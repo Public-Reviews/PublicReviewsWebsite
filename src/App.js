@@ -1,11 +1,11 @@
 import { Navbar } from "./Components/Navbar";
-import { Splash } from "./Components/HomeTopSection";
+import { HomeTopSection } from "./Components/HomeTopSection";
 
 function App() {
   return (
     <div className="App">
       <Navbar />
-      <Splash />
+      <HomeTopSection />
     </div>
   );
 }
