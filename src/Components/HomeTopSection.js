@@ -23,7 +23,7 @@ export function HomeTopSection() {
         >
           <div className="w-52 rounded-full overflow-hidden">
             <img
-              src="http://www.shillongmail.com/wp-content/uploads/2019/08/img-20190813-wa00178569590406324495390.jpg"
+              src="https://content.jdmagicbox.com/comp/shillong/f1/9999px364.x364.171203143811.n2f1/catalogue/shillong-enterprise-shillong-1pg3degqht.jpg"
               alt="neighrims-hospital"
             />
           </div>
