@@ -19,7 +19,7 @@ export function HomeTopSection() {
             cafes, restaurants, hospitals,
             <br /> repairshops the list goes on...
           </span>
-          <div className="text-3xl mt-10 font-blacky">
+          <div className="text-3xl mt-10 font-black">
             <span
               className="border-2 rounded-xl border-gray-300 bg-gray-300 p-2 hover:text-white hover:bg-indigo-500 hover:border-indigo-600 transition duration-300 cursor-pointer"
               unselectable="on"
