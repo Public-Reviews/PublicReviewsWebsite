@@ -5,29 +5,42 @@ export function Navbar() {
   return (
     <div className="w-screen h-20 bg-white shadow-xl flex flex-col justify-evenly">
       <div className="flex flex-row justify-between static">
-        <div className="font-black text-2xl ml-8 hover:text-indigo-500 transition duration-300 cursor-pointer">
+        <div
+          className="font-black text-3xl ml-12 hover:text-indigo-500 transition duration-300 cursor-pointer"
+          unselectable="on"
+        >
           PRW
         </div>
         <div className="hidden flex-row justify-evenly w-80 bg sm:flex">
-          <div className="hover:bg-indigo-500 hover:text-white transition duration-300 p-2 rounded-md cursor-pointer">
-            <div className="font-mono">Write a review</div>
+          <div className="hover:bg-indigo-500 ml-12 hover:text-white transition duration-300 p-2 rounded-md cursor-pointer">
+            <div className="font-mono" unselectable="on">
+              Sign Up
+            </div>
           </div>
           <div className="hover:bg-indigo-500 hover:text-white transition duration-300 p-2 rounded-md cursor-pointer">
-            <div className="font-mono">Log In</div>
+            <div className="font-mono" unselectable="on">
+              Log In
+            </div>
           </div>
         </div>
         <div
           className={`${
             menuToggle ? "flex" : "hidden"
-          } absolute sm:hidden flex-col right-2 top-14 bg-white shadow-2xl p-2 rounded-b-xl`}
+          } absolute sm:hidden flex-col right-2 top-14 bg-white shadow-2xl p-4 rounded-b-xl`}
         >
           <div className="relative z-10 font-mono">
-            <span className="hover:text-white hover:bg-indigo-500 p-2 cursor-pointer rounded-md transition duration-300">
-              Write a review
+            <span
+              className="hover:text-white hover:bg-indigo-500 p-2 cursor-pointer rounded-md transition duration-300"
+              unselectable="on"
+            >
+              Sign Up
             </span>
           </div>
-          <div className="relative z-10 font-mono p-2">
-            <span className="hover:text-white hover:bg-indigo-500 p-2 cursor-pointer rounded-md transition duration-300">
+          <div className="relative z-10 font-mono p-2 mt-3">
+            <span
+              className="hover:text-white hover:bg-indigo-500 p-2 cursor-pointer rounded-md transition duration-300"
+              unselectable="on"
+            >
               Log In
             </span>
           </div>
