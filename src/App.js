@@ -1,9 +1,9 @@
-import {Dummy} from "./Components/Dummy";
+import {Business} from "./Components/Business";
 
 function App() {
   return (
     <div className="App">
-      <Dummy/>
+      <Business/>
     </div>
   );
 }
