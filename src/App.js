@@ -1,9 +1,11 @@
-import {Dummy} from "./Components/Dummy";
+import { Navbar } from "./Components/Navbar";
+import { HomeTopSection } from "./Components/HomeTopSection";
 
 function App() {
   return (
     <div className="App">
-      <Dummy/>
+      <Navbar />
+      <HomeTopSection />
     </div>
   );
 }
