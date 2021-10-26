@@ -1,9 +1,11 @@
-import {Business} from "./Components/Business";
+import { Navbar } from "./Components/Navbar";
+import { HomeTopSection } from "./Components/HomeTopSection";
 
 function App() {
   return (
     <div className="App">
-      <Business/>
+      <Navbar />
+      <HomeTopSection />
     </div>
   );
 }
