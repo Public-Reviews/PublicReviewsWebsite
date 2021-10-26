@@ -2,7 +2,7 @@
 
 //You must export components like this. The name must be in CamelCase and it should self describe the component.
 export function Dummy() {
-    return (
+  return (
     <div id="container">
         {/*Under the className attribute use appropriate TailWindCSS as demonstrated below for styling*/}
         <div className="cursor-pointer flex flex-row justify-center w-screen h-screen place-items-center">
@@ -10,7 +10,7 @@ export function Dummy() {
                 <div className="text-2xl">Hello Universe!</div>
             </div>
         </div>
+      </div>
     </div>
-    );
-} 
-        
+  );
+}
