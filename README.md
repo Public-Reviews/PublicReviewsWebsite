@@ -1,4 +1,4 @@
-# PublicReviewsWebsite
+# Public Reviews Website
 This repository is for the webisite of www.publicreviews.com
 The website of public reviews offers the public to review organizations/hospitals/schools etc. and discplays the average the rating for them. This repository is in the initial stage and open for all the acceptable development.
 
@@ -15,3 +15,4 @@ To run on your local machine:
 3) The page of an organization contains information about organizatino, the list of ratings and reviews given by the people.
 4) There is an option to rate the organization after logged In
 5) There is an option to reviews the organization after logged In.
+
