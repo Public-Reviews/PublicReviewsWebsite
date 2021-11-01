@@ -1,5 +1,5 @@
 # PublicReviewsWebsite
-This repository contains UI of the www.publicreviews.com
+This repository is for the webisite of www.publicreviews.com
 The website of public reviews offers the public to review organizations/hospitals/schools etc. and discplays the average the rating for them. This repository is in the initial stage and open for all the acceptable development.
 
 ## How to run
