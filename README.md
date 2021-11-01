@@ -1,5 +1,6 @@
 # PublicReviewsWebsite
 This repository contains UI of the www.publicreviews.com
+The website of public reviews offers the public to review the any organization/hospital/schools etc. and discplay the common the rating for each of them.
 
 To run on your local machine:
 1) Install Nodejs
